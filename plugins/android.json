@@ -1,0 +1,26 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Datagram\"><param name=\"android-package\" value=\"in.girish.datagram.Datagram\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "in.girish.datagram": {
+            "PACKAGE_NAME": "com.ding"
+        }
+    },
+    "dependent_plugins": {}
+}
